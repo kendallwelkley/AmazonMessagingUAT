@@ -5,7 +5,7 @@
 window.addEventListener("onEmbeddedMessagingReady", function() {
 	console.log("Received the onEmbeddedMessagingReady event…");
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-                "Card_Token": "12345"
+                "Card_Token": ""
             });
         });
 			embeddedservice_bootstrap.init(
